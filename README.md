@@ -1,0 +1,2 @@
+# redis-nodejs-starter
+An Express application that retrieves data from a RESTful API using the axios module. After retrieving, it stores the data fetched from the API in Redis using the node-redis module. Also, implemented the cache validity period so that the cache can expire after a certain amount of time has passed. Used the Express middleware to cache data.
